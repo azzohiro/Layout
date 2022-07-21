@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityViewController" customModule="Layout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue1" translatesAutoresizingMaskIntoConstraints="NO" id="BEe-CO-Lhk">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                    <color key="backgroundColor" red="0.70199280980000001" green="0.53307932619999998" blue="0.9608263373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="JOb-Ka-1dT"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eII-OA-JKp">
+                    <rect key="frame" x="179" y="45" width="56.5" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="l6k-Mu-SC5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="200" translatesAutoresizingMaskIntoConstraints="NO" id="cPC-jW-ZpO">
+                    <rect key="frame" x="0.0" y="45" width="43" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keV-uc-bJF">
+                            <rect key="frame" x="0.0" y="0.0" width="43" height="35"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system">
+                                <backgroundConfiguration key="background" cornerRadius="0.0"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="handleData:" destination="-1" eventType="touchUpInside" id="9y8-Zk-SPK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="MAt-pQ-ImS"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EOi-B4-SUZ">
+                    <rect key="frame" x="16" y="772" width="382" height="108"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0p-d8-Uwt">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="QA3-rl-wHx"/>
+                            </constraints>
+                            <color key="tintColor" red="0.94925898310000001" green="0.94876903300000004" blue="0.96863025430000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Open Website">
+                                <backgroundConfiguration key="background" cornerRadius="10">
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </backgroundConfiguration>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="Btn_URL:" destination="-1" eventType="touchUpInside" id="2Yt-XO-61N"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ruo-yr-h8g">
+                            <rect key="frame" x="0.0" y="64" width="382" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="M7q-i9-OkQ"/>
+                            </constraints>
+                            <color key="tintColor" red="0.94925898310000001" green="0.94876903300000004" blue="0.96863025430000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Open Website">
+                                <backgroundConfiguration key="background" cornerRadius="10">
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </backgroundConfiguration>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="BEe-CO-Lhk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="56h-z2-Wu7"/>
+                <constraint firstItem="cPC-jW-ZpO" firstAttribute="leading" secondItem="BEe-CO-Lhk" secondAttribute="leading" id="6XN-Rs-nf1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EOi-B4-SUZ" secondAttribute="trailing" constant="16" id="6bs-gf-vcA"/>
+                <constraint firstItem="eII-OA-JKp" firstAttribute="centerY" secondItem="cPC-jW-ZpO" secondAttribute="centerY" id="BOM-aB-4W4"/>
+                <constraint firstItem="cPC-jW-ZpO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="KJm-vx-kEG"/>
+                <constraint firstItem="EOi-B4-SUZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="SFs-OD-Mn3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BEe-CO-Lhk" secondAttribute="trailing" id="TE0-a2-Jrp"/>
+                <constraint firstAttribute="bottom" secondItem="EOi-B4-SUZ" secondAttribute="bottom" constant="16" id="ZwE-vb-nII"/>
+                <constraint firstItem="BEe-CO-Lhk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ajU-Ap-Tj7"/>
+                <constraint firstItem="EOi-B4-SUZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eLh-Aj-tSO"/>
+                <constraint firstItem="eII-OA-JKp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rbw-za-DFZ"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="87.723214285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="blue1" width="720" height="1280"/>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

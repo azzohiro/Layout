@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" id="gTV-IL-0wX" customClass="HomeHeaderCollectionViewCell" customModule="Layout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="389" height="623"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="389" height="623"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGP-3q-JJr">
+                        <rect key="frame" x="0.0" y="0.0" width="389" height="623"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postingan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IY-Ss-5e0">
+                                <rect key="frame" x="8" y="16" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p05-Dp-31I">
+                                <rect key="frame" x="8" y="52" width="373" height="128"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saran Lokasi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWu-IX-3Up">
+                                <rect key="frame" x="8" y="188" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atN-uD-vex">
+                                <rect key="frame" x="8" y="217" width="373" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <color key="tintColor" red="0.60639339690000005" green="0.80813753600000005" blue="0.77647048230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="atN-uD-vex" secondAttribute="trailing" constant="8" id="30R-RW-JmL"/>
+                            <constraint firstItem="8IY-Ss-5e0" firstAttribute="leading" secondItem="FGP-3q-JJr" secondAttribute="leading" constant="8" id="E1d-UX-cbG"/>
+                            <constraint firstItem="fWu-IX-3Up" firstAttribute="top" secondItem="p05-Dp-31I" secondAttribute="bottom" constant="8" id="FIk-XB-gZk"/>
+                            <constraint firstItem="p05-Dp-31I" firstAttribute="top" secondItem="FGP-3q-JJr" secondAttribute="topMargin" id="JvY-26-TwD"/>
+                            <constraint firstItem="fWu-IX-3Up" firstAttribute="leading" secondItem="FGP-3q-JJr" secondAttribute="leading" constant="8" id="KbT-4v-jkl"/>
+                            <constraint firstItem="8IY-Ss-5e0" firstAttribute="top" secondItem="FGP-3q-JJr" secondAttribute="top" constant="16" id="NmE-VA-dZS"/>
+                            <constraint firstAttribute="bottom" secondItem="atN-uD-vex" secondAttribute="bottom" constant="278" id="QdJ-JO-lkX"/>
+                            <constraint firstItem="p05-Dp-31I" firstAttribute="trailing" secondItem="8IY-Ss-5e0" secondAttribute="trailing" id="VeY-Ux-NAw"/>
+                            <constraint firstItem="atN-uD-vex" firstAttribute="top" secondItem="fWu-IX-3Up" secondAttribute="bottom" constant="8" id="WVs-Rf-52E"/>
+                            <constraint firstAttribute="trailing" secondItem="8IY-Ss-5e0" secondAttribute="trailing" constant="8" id="cas-lk-Sgc"/>
+                            <constraint firstItem="p05-Dp-31I" firstAttribute="leading" secondItem="8IY-Ss-5e0" secondAttribute="leading" id="eER-a4-WZ2"/>
+                            <constraint firstItem="p05-Dp-31I" firstAttribute="leading" secondItem="FGP-3q-JJr" secondAttribute="leading" constant="8" id="r6u-8F-rNm"/>
+                            <constraint firstItem="atN-uD-vex" firstAttribute="top" secondItem="FGP-3q-JJr" secondAttribute="top" constant="217" id="sZG-Za-reU"/>
+                            <constraint firstItem="atN-uD-vex" firstAttribute="leading" secondItem="FGP-3q-JJr" secondAttribute="leading" constant="8" id="sbo-gC-FWW"/>
+                            <constraint firstAttribute="trailing" secondItem="fWu-IX-3Up" secondAttribute="trailing" constant="8" id="uNw-6a-DoG"/>
+                            <constraint firstAttribute="trailing" secondItem="p05-Dp-31I" secondAttribute="trailing" constant="8" id="zyC-2E-DMA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FGP-3q-JJr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fMm-BX-z52"/>
+                <constraint firstAttribute="trailing" secondItem="FGP-3q-JJr" secondAttribute="trailing" id="kCq-ZN-r6b"/>
+                <constraint firstAttribute="bottom" secondItem="FGP-3q-JJr" secondAttribute="bottom" id="lJr-ZF-tVy"/>
+                <constraint firstItem="FGP-3q-JJr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vxR-3N-7E7"/>
+            </constraints>
+            <size key="customSize" width="389" height="623"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="281.8840579710145" y="196.54017857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
