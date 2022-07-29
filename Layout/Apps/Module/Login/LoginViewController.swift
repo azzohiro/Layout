@@ -56,6 +56,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UITextViewDele
 }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         emailTextField.endEditing(true)
+        print("Test")
         passwordTextField.endEditing(true)
         return false
     }
