@@ -49,6 +49,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UITextViewDele
     
     @IBAction func keyboardPressed(_ sender: UITextField) {
         emailTextField.endEditing(true)
+        print("Hello yututube")
         print(emailTextField.text!)
         
     
