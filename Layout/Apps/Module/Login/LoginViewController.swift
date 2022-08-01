@@ -61,6 +61,13 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UITextViewDele
         print("TestBranch")
         print("testBranch1")
         print("Pagi")
+        print("Siang")
+        print("Malam")
+        print("Sore")
+
+
+
+        
         passwordTextField.endEditing(true)
         return false
     }
