@@ -58,6 +58,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UITextViewDele
         emailTextField.endEditing(true)
         print("Test")
         print("Test1")
+        print("Wewewewe")
 
         passwordTextField.endEditing(true)
         return false
