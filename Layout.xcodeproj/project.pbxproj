@@ -221,8 +221,8 @@
 		14C0D5BD2834E45400BCA0C8 = {
 			isa = PBXGroup;
 			children = (
-				14D7EF5728C0B8E1007BBA98 /* eweweViewController.swift */,
-				14D7EF5828C0B8E1007BBA98 /* eweweViewController.xib */,
+				14D7EF5F28C0BA56007BBA98 /* helloword */,
+				14D7EF5E28C0BA4E007BBA98 /* New Group */,
 				14D7EF5428C0B800007BBA98 /* testtt */,
 				14C0D5C82834E45400BCA0C8 /* Layout */,
 				14D7EF2D28C0B1FF007BBA98 /* AppleWatchNew */,
@@ -376,6 +376,22 @@
 				14D7EF5528C0B80E007BBA98 /* qweInterfaceController.swift */,
 			);
 			path = testtt;
+			sourceTree = "<group>";
+		};
+		14D7EF5E28C0BA4E007BBA98 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				14D7EF5828C0B8E1007BBA98 /* eweweViewController.xib */,
+				14D7EF5728C0B8E1007BBA98 /* eweweViewController.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		14D7EF5F28C0BA56007BBA98 /* helloword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helloword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
