@@ -47,6 +47,8 @@
 		14D7EF4528C0B204007BBA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7EF4428C0B204007BBA98 /* Assets.xcassets */; };
 		14D7EF4A28C0B204007BBA98 /* AppleWatchNew.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 14D7EF2C28C0B1FF007BBA98 /* AppleWatchNew.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		14D7EF5628C0B80E007BBA98 /* qweInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7EF5528C0B80E007BBA98 /* qweInterfaceController.swift */; };
+		14D7EF5928C0B8E1007BBA98 /* eweweViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7EF5728C0B8E1007BBA98 /* eweweViewController.swift */; };
+		14D7EF5A28C0B8E1007BBA98 /* eweweViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D7EF5828C0B8E1007BBA98 /* eweweViewController.xib */; };
 		14DEE320283F69AD00FC62A9 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DEE31F283F69AD00FC62A9 /* DataViewController.xib */; };
 		14EA136B288652C50064EF0C /* BerandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA136A288652C40064EF0C /* BerandaViewController.swift */; };
 /* End PBXBuildFile section */
@@ -138,6 +140,8 @@
 		14D7EF4628C0B204007BBA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D7EF4728C0B204007BBA98 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		14D7EF5528C0B80E007BBA98 /* qweInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qweInterfaceController.swift; sourceTree = "<group>"; };
+		14D7EF5728C0B8E1007BBA98 /* eweweViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eweweViewController.swift; sourceTree = "<group>"; };
+		14D7EF5828C0B8E1007BBA98 /* eweweViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = eweweViewController.xib; sourceTree = "<group>"; };
 		14DEE31F283F69AD00FC62A9 /* DataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
 		14EA136A288652C40064EF0C /* BerandaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerandaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +221,8 @@
 		14C0D5BD2834E45400BCA0C8 = {
 			isa = PBXGroup;
 			children = (
+				14D7EF5728C0B8E1007BBA98 /* eweweViewController.swift */,
+				14D7EF5828C0B8E1007BBA98 /* eweweViewController.xib */,
 				14D7EF5428C0B800007BBA98 /* testtt */,
 				14C0D5C82834E45400BCA0C8 /* Layout */,
 				14D7EF2D28C0B1FF007BBA98 /* AppleWatchNew */,
@@ -475,6 +481,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C0D5E52834E58200BCA0C8 /* LoginViewController.xib in Resources */,
+				14D7EF5A28C0B8E1007BBA98 /* eweweViewController.xib in Resources */,
 				14C0D5E92834E5AF00BCA0C8 /* RegisterViewController.xib in Resources */,
 				14C0D5D62834E45500BCA0C8 /* LaunchScreen.storyboard in Resources */,
 				14C0D5D32834E45500BCA0C8 /* Assets.xcassets in Resources */,
@@ -519,6 +526,7 @@
 			files = (
 				14C0D5E42834E58200BCA0C8 /* LoginViewController.swift in Sources */,
 				14C0D5E82834E5AF00BCA0C8 /* RegisterViewController.swift in Sources */,
+				14D7EF5928C0B8E1007BBA98 /* eweweViewController.swift in Sources */,
 				14EA136B288652C50064EF0C /* BerandaViewController.swift in Sources */,
 				14C565AE283643C20008D9CD /* DataViewController.swift in Sources */,
 				14C3EE252835304B0059C4B8 /* HomeHeaderCollectionViewCell.swift in Sources */,
