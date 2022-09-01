@@ -46,6 +46,7 @@
 		14D7EF4328C0B203007BBA98 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7EF4228C0B203007BBA98 /* ComplicationController.swift */; };
 		14D7EF4528C0B204007BBA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7EF4428C0B204007BBA98 /* Assets.xcassets */; };
 		14D7EF4A28C0B204007BBA98 /* AppleWatchNew.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 14D7EF2C28C0B1FF007BBA98 /* AppleWatchNew.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14D7EF5628C0B80E007BBA98 /* qweInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7EF5528C0B80E007BBA98 /* qweInterfaceController.swift */; };
 		14DEE320283F69AD00FC62A9 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DEE31F283F69AD00FC62A9 /* DataViewController.xib */; };
 		14EA136B288652C50064EF0C /* BerandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA136A288652C40064EF0C /* BerandaViewController.swift */; };
 /* End PBXBuildFile section */
@@ -136,6 +137,7 @@
 		14D7EF4428C0B204007BBA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D7EF4628C0B204007BBA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D7EF4728C0B204007BBA98 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		14D7EF5528C0B80E007BBA98 /* qweInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qweInterfaceController.swift; sourceTree = "<group>"; };
 		14DEE31F283F69AD00FC62A9 /* DataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
 		14EA136A288652C40064EF0C /* BerandaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerandaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,6 +217,7 @@
 		14C0D5BD2834E45400BCA0C8 = {
 			isa = PBXGroup;
 			children = (
+				14D7EF5428C0B800007BBA98 /* testtt */,
 				14C0D5C82834E45400BCA0C8 /* Layout */,
 				14D7EF2D28C0B1FF007BBA98 /* AppleWatchNew */,
 				14D7EF3B28C0B203007BBA98 /* AppleWatchNew WatchKit Extension */,
@@ -333,6 +336,7 @@
 		14D7EF2D28C0B1FF007BBA98 /* AppleWatchNew */ = {
 			isa = PBXGroup;
 			children = (
+				14D7EF5328C0B7F9007BBA98 /* New Group */,
 				14D7EF2E28C0B1FF007BBA98 /* Interface.storyboard */,
 				14D7EF3128C0B202007BBA98 /* Assets.xcassets */,
 			);
@@ -351,6 +355,21 @@
 				14D7EF4728C0B204007BBA98 /* PushNotificationPayload.apns */,
 			);
 			path = "AppleWatchNew WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		14D7EF5328C0B7F9007BBA98 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		14D7EF5428C0B800007BBA98 /* testtt */ = {
+			isa = PBXGroup;
+			children = (
+				14D7EF5528C0B80E007BBA98 /* qweInterfaceController.swift */,
+			);
+			path = testtt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,6 +530,7 @@
 				14C0D5CC2834E45400BCA0C8 /* SceneDelegate.swift in Sources */,
 				14BC75DB2854960600412E4C /* AsepViewController.swift in Sources */,
 				14752A7B283F878800F7C3BD /* ActivityViewController.swift in Sources */,
+				14D7EF5628C0B80E007BBA98 /* qweInterfaceController.swift in Sources */,
 				14752A89283F87D600F7C3BD /* OthersViewController.swift in Sources */,
 				14752A81283F87AB00F7C3BD /* WalletViewController.swift in Sources */,
 				14C0D5EC2834E5C000BCA0C8 /* HomeViewController.swift in Sources */,
